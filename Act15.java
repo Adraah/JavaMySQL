@@ -14,8 +14,8 @@ public class Act15 {
      */
     public static void main(String[] args) throws SQLException {
         Scanner in = new Scanner(System.in);
-        String url = "jdbc:mysql://localhost:3306/act15";
-        String user = "java";
+        String url = "jdbc:mysql://localhost:3306/actividad15";
+        String user = "Act15";
         String password = "password";
         Connection coneccion = DriverManager.getConnection(url, user, password); 
         Statement stmt = coneccion.createStatement();
